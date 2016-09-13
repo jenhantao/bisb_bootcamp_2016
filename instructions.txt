@@ -13,16 +13,14 @@ git merge # merge changes from remote repository
 
 ### step five ###
 git add testFile.txt # add testFile.txt to a commit
+git status # check commit status
 
 ### step six ###
 git commit -m 'meaningful commit message' # stage a commit locally
 
 ### step seven ###
-git fetch origin master# fetch changes from remote repository; there should be some changes
+git pull orign master # check if there is any new change remote changes; fetch and merge commits from local repository
 
 ### step eight ###
-git merge # merge changes from remote repository
-
-### step nine ###
 git push origin master # push to remote repository; git push <repository> <branch>
 
