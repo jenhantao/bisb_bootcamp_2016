@@ -2,24 +2,27 @@
 git fetch origin master # fetch changes from remote repository
 
 ### step two ###
-git merge # merge changes from remote repository
+cd bisb_bootcamp_2016
 
 ### step three ###
+git merge # merge changes from remote repository
+
+### step four ###
 # make your edits to testFile.txt
 # save file
 
-### step four ###
+### step five ###
 git add testFile.txt # add testFile.txt to a commit
 
-### step five ###
+### step six ###
 git commit -m 'meaningful commit message' # stage a commit locally
 
-### step six ###
+### step seven ###
 git fetch origin master# fetch changes from remote repository; there should be some changes
 
-### step seven ###
+### step eight ###
 git merge # merge changes from remote repository
 
-### step 8 ###
+### step nine ###
 git push origin master # push to remote repository; git push <repository> <branch>
 
