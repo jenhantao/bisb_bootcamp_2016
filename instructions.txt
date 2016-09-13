@@ -1,0 +1,25 @@
+### step one ###
+git fetch origin master # fetch changes from remote repository
+
+### step two ###
+git merge # merge changes from remote repository
+
+### step three ###
+# make your edits to testFile.txt
+# save file
+
+### step four ###
+git add testFile.txt # add testFile.txt to a commit
+
+### step five ###
+git commit -m 'meaningful commit message' # stage a commit locally
+
+### step six ###
+git fetch origin master# fetch changes from remote repository; there should be some changes
+
+### step seven ###
+git merge # merge changes from remote repository
+
+### step 8 ###
+git push origin master # push to remote repository; git push <repository> <branch>
+
